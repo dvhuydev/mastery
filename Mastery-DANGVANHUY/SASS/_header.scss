@@ -1,0 +1,42 @@
+.header{
+    width: 1200px;
+    height: 80px;
+    // background: #8d8ddf;
+    margin: auto;
+    // position: fixed;
+    .logo{
+        height: 50%;
+        position: relative;
+        line-height: 40px;
+
+        i{
+            background-color: #000;
+            height: 30px;
+            width: 30px;
+            line-height: 30px;
+            font-size: 15px;
+            border-radius: 50%;
+            text-align: center;
+            color: #e6c981;
+            margin: auto;
+
+        }
+        .content{
+            position: absolute;
+            top: 0;
+            left: 40px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+    }
+    .menu{
+        height: 50%;
+        display: block;
+        line-height: 40px;
+        margin-left: 20px;
+        a{
+            margin-right: 20px;
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,647 @@
+.header {
+  width: 1200px;
+  height: 80px;
+  margin: auto;
+}
+.header .logo {
+  height: 50%;
+  position: relative;
+  line-height: 40px;
+}
+.header .logo i {
+  background-color: #000;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  font-size: 15px;
+  border-radius: 50%;
+  text-align: center;
+  color: #e6c981;
+  margin: auto;
+}
+.header .logo .content {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.header .menu {
+  height: 50%;
+  display: block;
+  line-height: 40px;
+  margin-left: 20px;
+}
+.header .menu a {
+  margin-right: 20px;
+  color: #000;
+}
+
+.carousel {
+  width: 100%;
+  height: auto;
+  margin-bottom: 50px;
+}
+.carousel img {
+  height: calc(100vh - 80px);
+  width: 100%;
+}
+
+.section {
+  width: 1200px;
+  height: 400px;
+  margin: auto;
+  margin-bottom: 50px;
+}
+.section .content__details {
+  width: 50%;
+  float: left;
+  height: 100%;
+  line-height: 25px;
+}
+.section .content__details h1 {
+  text-transform: capitalize;
+  margin-bottom: 25px;
+}
+.section .content__details p {
+  width: 90%;
+  margin-bottom: 30px;
+}
+.section .content__details .box {
+  background: #e6c981;
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.section .content__image {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+.section .content__image img {
+  height: 400px;
+  width: 100%;
+}
+
+.counter {
+  width: 100%;
+  height: 120px;
+  background: #eceaeb;
+  margin-bottom: 120px;
+}
+.counter .counter__width {
+  width: 1200px;
+  height: 100%;
+  margin: auto;
+}
+.counter .counter__width .counter__left {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+.counter .counter__width .counter__left .counter_content_A {
+  width: 50%;
+  float: left;
+  height: 100%;
+  display: block;
+  align-items: center;
+}
+.counter .counter__width .counter__left .counter_content_A h1 {
+  font-size: 70px;
+  float: left;
+  font-weight: 700;
+  line-height: 80px;
+}
+.counter .counter__width .counter__left .counter_content_A p {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 40px;
+}
+.counter .counter__width .counter__left .counter_content_B {
+  width: 50%;
+  float: right;
+  height: 100%;
+  align-items: center;
+}
+.counter .counter__width .counter__left .counter_content_B h1 {
+  font-size: 70px;
+  float: left;
+  font-weight: 700;
+  line-height: 80px;
+}
+.counter .counter__width .counter__left .counter_content_B p {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 45px;
+}
+.counter .counter__width .counter__right {
+  width: 50%;
+  float: right;
+  margin-top: 20px;
+}
+.counter .counter__width .counter__right .counter_content_A {
+  width: 50%;
+  float: left;
+  height: 100%;
+  align-items: center;
+}
+.counter .counter__width .counter__right .counter_content_A h1 {
+  font-size: 70px;
+  float: left;
+  font-weight: 700;
+  line-height: 80px;
+}
+.counter .counter__width .counter__right .counter_content_A p {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 40px;
+}
+.counter .counter__width .counter__right .counter_content_B {
+  width: 50%;
+  float: right;
+  height: 100%;
+  align-items: center;
+}
+.counter .counter__width .counter__right .counter_content_B h1 {
+  font-size: 70px;
+  float: left;
+  font-weight: 700;
+  line-height: 80px;
+}
+.counter .counter__width .counter__right .counter_content_B p {
+  font-size: 24px;
+  line-height: 30px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  float: right;
+  margin-right: 25%;
+}
+
+.services {
+  width: 1200px;
+  margin: auto;
+  height: 400px;
+  margin-bottom: 150px;
+}
+.services .services__top__left {
+  float: left;
+  width: 49%;
+  height: 50%;
+  margin-right: 1%;
+}
+.services .services__top__left .services__left_A {
+  width: 48%;
+  float: left;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__top__left .services__left_A i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__top__left .services__left_A p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__top__left .services__left_B {
+  width: 48%;
+  float: right;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__top__left .services__left_B i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__top__left .services__left_B p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__top__right {
+  float: left;
+  width: 49%;
+  height: 50%;
+  margin-left: 1%;
+}
+.services .services__top__right .services__left_A {
+  width: 48%;
+  float: left;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__top__right .services__left_A i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__top__right .services__left_A p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__top__right .services__left_B {
+  width: 48%;
+  float: right;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__top__right .services__left_B i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__top__right .services__left_B p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__bottom__left {
+  margin-top: 2%;
+  float: left;
+  width: 49%;
+  height: 50%;
+  margin-right: 1%;
+}
+.services .services__bottom__left .services__left_A {
+  width: 48%;
+  float: left;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__bottom__left .services__left_A i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__bottom__left .services__left_A p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__bottom__left .services__left_B {
+  width: 48%;
+  float: right;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__bottom__left .services__left_B i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__bottom__left .services__left_B p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__bottom__right {
+  margin-top: 2%;
+  float: left;
+  width: 49%;
+  height: 50%;
+  margin-left: 1%;
+}
+.services .services__bottom__right .services__left_A {
+  width: 48%;
+  float: left;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__bottom__right .services__left_A i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__bottom__right .services__left_A p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+.services .services__bottom__right .services__left_B {
+  width: 48%;
+  float: right;
+  height: 100%;
+  position: relative;
+  background: #040142;
+  border-radius: 3px;
+}
+.services .services__bottom__right .services__left_B i {
+  font-size: 50px;
+  position: absolute;
+  color: #fff;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -40%);
+}
+.services .services__bottom__right .services__left_B p {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-size: 22px;
+  color: #fff;
+}
+
+.article {
+  width: 100%;
+  height: 950px;
+  background: #eceaeb;
+}
+.article .article__container {
+  width: 1200px;
+  margin: auto;
+  padding-top: 50px;
+}
+.article .article__container .article__left {
+  width: 50%;
+  float: left;
+}
+.article .article__container .article__left h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.article .article__container .article__left .article__background {
+  background: #fff;
+  width: calc(100% - 10px);
+}
+.article .article__container .article__left .article__background .article__post {
+  padding: 30px 0px;
+  overflow: hidden;
+  width: 90%;
+  margin: auto;
+}
+.article .article__container .article__left .article__background .article__post img {
+  width: 35%;
+  float: left;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.article .article__container .article__left .article__background .article__post h1 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.article .article__container .article__left .article__background .article__post p {
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  color: #838383;
+}
+.article .article__container .article__left .article__background .article__post .lorem {
+  font-size: 18px;
+}
+.article .article__container .article__left .article__background .article__post:nth-of-type(2) {
+  border-top: 1px solid #838383;
+}
+.article .article__container .article__left .article__background .article__post:nth-of-type(3) {
+  border-top: 1px solid #838383;
+}
+.article .article__container .article__left .button {
+  width: calc(100% - 10px);
+  margin-top: 30px;
+}
+.article .article__container .article__left .button p {
+  float: right;
+  background: #e6c981;
+  padding: 10px 25px;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.article .article__container .article__right {
+  width: 47%;
+  float: right;
+}
+.article .article__container .article__right h1 {
+  font-size: 50px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.article .article__container .article__right .container__article {
+  width: 100%;
+  height: 565px;
+}
+.article .article__container .article__right .container__article .article__box {
+  background: #fff;
+  height: calc(50% - 15px);
+  padding: 30px 20px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__left {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+  height: 100%;
+}
+.article .article__container .article__right .container__article .article__box .article__box__left div {
+  background: #e6c981;
+  height: 50%;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+.article .article__container .article__right .container__article .article__box .article__box__left div h2 {
+  font-size: 50px;
+  padding-top: 10px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__left div h3 {
+  font-size: 22px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__left p {
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+  background: #040142;
+  color: #fff;
+  border-radius: 0 0 10px 10px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__right {
+  font-size: 18px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__right h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__right p {
+  line-height: 23px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__right div {
+  color: #1f16d7;
+  margin-top: 20px;
+}
+.article .article__container .article__right .container__article .article__box .article__box__right div p {
+  float: left;
+  border-right: 3px solid #838383;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.article .article__container .article__right .container__article .article__box:nth-of-type(2) {
+  margin-top: 30px;
+}
+.article .article__container .article__right .button {
+  width: calc(100% - 10px);
+  margin-top: 30px;
+}
+.article .article__container .article__right .button p {
+  float: right;
+  background: #e6c981;
+  padding: 10px 25px;
+  font-size: 22px;
+  text-transform: capitalize;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  background: #040142;
+}
+.footer .footer__container {
+  width: 1200px;
+  margin: auto;
+  height: 75%;
+  border-bottom: 1px solid #eceaeb;
+}
+.footer .footer__container .footer__items {
+  color: #fff;
+  padding-top: 50px;
+  width: 33%;
+  float: left;
+}
+.footer .footer__container .footer__items h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+.footer .footer__container .footer__items i {
+  color: #e6c981;
+  float: left;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footer .footer__container .footer__items p {
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+.footer .footer__container .footer__items i {
+  color: #e6c981;
+  float: left;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footer .footer__container .footer__items i {
+  color: #e6c981;
+  float: left;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footer .footer__container .footer__items .footer__items__content {
+  color: #fff;
+  width: 100%;
+}
+.footer .footer__container .footer__items .footer__items__content p {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer .footer__copyright {
+  width: 1200px;
+  color: #fff;
+  margin: auto;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+.footer .footer__copyright span {
+  color: #cacacf;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  transition: all 0.5 ease;
+  list-style: none;
+}
+
+/*# sourceMappingURL=main.css.map */

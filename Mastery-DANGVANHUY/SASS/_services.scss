@@ -1,0 +1,259 @@
+$color: #040142;
+$border: 3px;
+
+.services{
+    width: 1200px;
+    margin: auto;
+    height: 400px;
+    margin-bottom: 150px;
+
+    .services__top__left{
+        float: left;
+        width: 49%;
+        height: 50%;
+        margin-right: 1%;
+
+
+        .services__left_A{
+            width: 48%;
+            float: left;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+                
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+
+        }
+        .services__left_B{
+            width: 48%;
+            float: right;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+            
+        }
+    }
+
+    .services__top__right{
+        float: left;
+        width: 49%;
+        height: 50%;
+        margin-left: 1%;
+
+        .services__left_A{
+            width: 48%;
+            float: left;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+                
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+
+        }
+        .services__left_B{
+            width: 48%;
+            float: right;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;         
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+            
+        }
+    }
+
+
+
+
+    .services__bottom__left{
+        margin-top: 2%;
+        float: left;
+        width: 49%;
+        height: 50%;
+        margin-right: 1%;
+
+        .services__left_A{
+            width: 48%;
+            float: left;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+                
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+
+        }
+        .services__left_B{
+            width: 48%;
+            float: right;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+            
+        }
+    }
+
+    .services__bottom__right{
+        margin-top: 2%;
+        float: left;
+        width: 49%;
+        height: 50%;
+        margin-left: 1%;
+
+        .services__left_A{
+            width: 48%;
+            float: left;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+                
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+
+        }
+        .services__left_B{
+            width: 48%;
+            float: right;
+            height: 100%;
+            position: relative;
+            background: $color;
+            border-radius: $border;
+            i{
+                font-size: 50px;
+                position: absolute;
+                color: #fff;
+                top: 40%;
+                left: 50%;
+                transform: translate(-50%, -40%);
+            }
+            p{
+                position: absolute;
+                top: 80%;
+                left: 50%;
+                transform: translate(-50%, -80%);
+                font-size: 22px;
+                color: #fff;
+            }
+
+            
+        }
+    }
+}

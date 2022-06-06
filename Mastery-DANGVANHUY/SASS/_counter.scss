@@ -1,0 +1,119 @@
+.counter{
+    width: 100%;
+    height: 120px;
+    background: #eceaeb;
+    margin-bottom: 120px;
+    .counter__width{
+        width: 1200px;
+        height: 100%;
+        margin: auto;
+
+
+        .counter__left{
+            width: 50%;
+            float: left;
+            margin-top: 20px;
+
+            .counter_content_A{
+                width: 50%;
+                float: left;
+                height: 100%;
+                display: block;
+                align-items: center;
+
+                h1{
+                    font-size: 70px;
+                    float: left;
+                    font-weight: 700;
+                    line-height: 80px;
+                    // margin-right: 20px;
+                }
+                p{
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    float: right;
+                    margin-right: 40px;
+
+                }
+
+            }
+            .counter_content_B{
+                width: 50%;
+                float: right;
+                height: 100%;
+                align-items: center;
+                                h1{
+                    font-size: 70px;
+                    float: left;
+                    font-weight: 700;
+                    line-height: 80px;
+                    // margin-right: 20px;
+                }
+                p{
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    float: right;
+                    margin-right: 45px;
+
+                }
+            }
+        }
+
+        .counter__right{
+            width: 50%;
+            float: right;
+            margin-top: 20px;
+            .counter_content_A{
+                width: 50%;
+                float: left;
+                height: 100%;
+                align-items: center;
+
+                h1{
+                    font-size: 70px;
+                    float: left;
+                    font-weight: 700;
+                    line-height: 80px;
+                    // margin-right: 20px;
+                }
+                p{
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    float: right;
+                    margin-right: 40px;
+
+                }
+
+            }
+            .counter_content_B{
+                width: 50%;
+                float: right;
+                height: 100%;
+                align-items: center;
+                                h1{
+                    font-size: 70px;
+                    float: left;
+                    font-weight: 700;
+                    line-height: 80px;
+                    // margin-right: 20px;
+                }
+                p{
+                    font-size: 24px;
+                    line-height: 30px;
+                    margin-top: 10px;
+                    text-transform: uppercase;
+                    float: right;
+                    margin-right: 25%;
+
+                }
+            }
+        }
+    }
+}
+
