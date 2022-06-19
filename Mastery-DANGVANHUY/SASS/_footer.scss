@@ -27,6 +27,10 @@ $coloricon: #e6c981;
                 font-size: 20px;
                 margin-right: 20px;
             }
+
+            a{
+                color: #fff;
+            }
             p{
                 line-height: 25px;
                 margin-bottom: 20px;
@@ -51,11 +55,17 @@ $coloricon: #e6c981;
             .footer__items__content{
                 color: #fff;
                 width: 100%;
-                p{
-                    text-transform: capitalize;
+
+                li{
                     margin-bottom: 20px;
-                    cursor: pointer;
+                    a{
+                        color: #fff;
+                        text-transform: capitalize;
+                        cursor: pointer;
+                    }
                 }
+
+
             }
         }
     }
