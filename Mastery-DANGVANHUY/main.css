@@ -470,7 +470,8 @@
   width: calc(100% - 10px);
   margin-top: 30px;
 }
-.article .article__container .article__left .button p {
+.article .article__container .article__left .button a {
+  color: #000;
   float: right;
   background: #e6c981;
   padding: 10px 25px;
@@ -551,7 +552,8 @@
   width: calc(100% - 10px);
   margin-top: 30px;
 }
-.article .article__container .article__right .button p {
+.article .article__container .article__right .button a {
+  color: #000;
   float: right;
   background: #e6c981;
   padding: 10px 25px;
@@ -589,6 +591,9 @@
   font-size: 20px;
   margin-right: 20px;
 }
+.footer .footer__container .footer__items a {
+  color: #fff;
+}
 .footer .footer__container .footer__items p {
   line-height: 25px;
   margin-bottom: 20px;
@@ -610,9 +615,12 @@
   color: #fff;
   width: 100%;
 }
-.footer .footer__container .footer__items .footer__items__content p {
-  text-transform: capitalize;
+.footer .footer__container .footer__items .footer__items__content li {
   margin-bottom: 20px;
+}
+.footer .footer__container .footer__items .footer__items__content li a {
+  color: #fff;
+  text-transform: capitalize;
   cursor: pointer;
 }
 .footer .footer__copyright {
@@ -642,6 +650,4 @@
   outline: none;
   transition: all 0.5 ease;
   list-style: none;
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
